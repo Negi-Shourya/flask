@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATM Dashboard</title>
+</head>
+<body>
+    <h2>Welcome to ATM</h2>
+    <h3>Balance: ₹{{ balance }}</h3>
+
+    <form method="post">
+        <input type="number" name="amount" placeholder="Enter Amount" required>
+        <br><br>
+
+        <button name="action" value="deposit">Deposit</button>
+        <button name="action" value="withdraw">Withdraw</button>
+    </form>
+
+    <br>
+    <a href="/logout">Logout</a>
+</body>
+</html>
